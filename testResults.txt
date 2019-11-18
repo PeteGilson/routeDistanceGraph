@@ -1,0 +1,65 @@
+[==========] Running 12 tests from 12 test cases.
+[----------] Global test environment set-up.
+[----------] 1 test from create_graph_test
+[ RUN      ] create_graph_test.PositiveNos
+[       OK ] create_graph_test.PositiveNos (1 ms)
+[----------] 1 test from create_graph_test (1 ms total)
+
+[----------] 1 test from missing_input_file_test
+[ RUN      ] missing_input_file_test.ZeroAndNegativeNos
+[       OK ] missing_input_file_test.ZeroAndNegativeNos (0 ms)
+[----------] 1 test from missing_input_file_test (0 ms total)
+
+[----------] 1 test from Route_A_B_C_test
+[ RUN      ] Route_A_B_C_test.PositiveNos
+[       OK ] Route_A_B_C_test.PositiveNos (0 ms)
+[----------] 1 test from Route_A_B_C_test (0 ms total)
+
+[----------] 1 test from Route_A_D_test
+[ RUN      ] Route_A_D_test.PositiveNos
+[       OK ] Route_A_D_test.PositiveNos (0 ms)
+[----------] 1 test from Route_A_D_test (0 ms total)
+
+[----------] 1 test from Route_A_D_C_test
+[ RUN      ] Route_A_D_C_test.PositiveNos
+[       OK ] Route_A_D_C_test.PositiveNos (0 ms)
+[----------] 1 test from Route_A_D_C_test (0 ms total)
+
+[----------] 1 test from Route_A_E_B_C_D_test
+[ RUN      ] Route_A_E_B_C_D_test.PositiveNos
+[       OK ] Route_A_E_B_C_D_test.PositiveNos (0 ms)
+[----------] 1 test from Route_A_E_B_C_D_test (0 ms total)
+
+[----------] 1 test from Route_A_E_D_test
+[ RUN      ] Route_A_E_D_test.PositiveNos
+[       OK ] Route_A_E_D_test.PositiveNos (0 ms)
+[----------] 1 test from Route_A_E_D_test (0 ms total)
+
+[----------] 1 test from Trips_C_C_Max_3_test
+[ RUN      ] Trips_C_C_Max_3_test.PositiveNos
+[       OK ] Trips_C_C_Max_3_test.PositiveNos (1 ms)
+[----------] 1 test from Trips_C_C_Max_3_test (1 ms total)
+
+[----------] 1 test from Trips_A_C_Exact_4_test
+[ RUN      ] Trips_A_C_Exact_4_test.PositiveNos
+[       OK ] Trips_A_C_Exact_4_test.PositiveNos (2 ms)
+[----------] 1 test from Trips_A_C_Exact_4_test (2 ms total)
+
+[----------] 1 test from Shortest_A_C_test
+[ RUN      ] Shortest_A_C_test.PositiveNos
+[       OK ] Shortest_A_C_test.PositiveNos (24 ms)
+[----------] 1 test from Shortest_A_C_test (24 ms total)
+
+[----------] 1 test from Shortest_B_B_test
+[ RUN      ] Shortest_B_B_test.PositiveNos
+[       OK ] Shortest_B_B_test.PositiveNos (19 ms)
+[----------] 1 test from Shortest_B_B_test (19 ms total)
+
+[----------] 1 test from Routes_C_C_test
+[ RUN      ] Routes_C_C_test.PositiveNos
+[       OK ] Routes_C_C_test.PositiveNos (3 ms)
+[----------] 1 test from Routes_C_C_test (3 ms total)
+
+[----------] Global test environment tear-down
+[==========] 12 tests from 12 test cases ran. (50 ms total)
+[  PASSED  ] 12 tests.
