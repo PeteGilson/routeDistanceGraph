@@ -33,9 +33,9 @@ struct towns
 
 class routeDistanceAndDurationCalculator
 {
-	public:
-		int populateInputGraph(std::string inputGraph, std::vector<towns>* completedGraph);
-		int checkDistanceOrDuration(std::vector<towns>* routesGraph, std::string desiredRoute, int operatingMode);
-		int numberOfTrips(std::vector<towns>* routesGraph, char* startTown, char* endTown, int numberOfStops, int operatingMode);
-		int traverseThisRoute(std::vector<towns>* routesGraph,std::map<towns*, int> route, char* endTown, int maxStopsOrDuration, std::string routeTaken, std::map<std::string, int> &routeDistances, int operatingMode);
+    public:
+        int populateInputGraph(std::string inputGraph, std::vector<towns>* completedGraph);
+        int checkDistanceOrDuration(std::vector<towns>* routesGraph, std::string desiredRoute, int operatingMode);
+        int numberOfTrips(std::vector<towns>* routesGraph, char* startTown, char* endTown, int numberOfStops, int operatingMode);
+        int traverseThisRoute(std::vector<towns>* routesGraph,std::map<towns*, int> route, char* endTown, int maxStopsOrDuration, std::string routeTaken, std::map<std::string, int> &routeDistances, int operatingMode);
 };
